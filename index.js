@@ -7,5 +7,10 @@ if(userInput.length == 0){
 }
 else{
     fetch(url + userInp).then(response => response.json())
-    .then(data => )
+    .then((data) => {
+       console.log(data);
+       console.log(data.drinks[0]);
+      let myDrink = data.drinks[0];
+      console.log(myDrink) 
+    });
 }
