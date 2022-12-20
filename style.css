@@ -1,78 +1,57 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
-}
-
-header{
-   border-bottom: 5px solid orange; 
+    height: 100vh;
+    background: linear-gradient(#5372f0 50%, #000000 50%);
 }
 
 .container{
-    width: 95%;
-    margin: auto;
-}
-
-.nav{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 25px 25px;
-}
-
-.nav h2{
-    font-size: 2rem;
-
-}
-
-.search-box{
-    position:relative;
-    width: 350px;
-}
-
-.search-box input{
-    box-sizing: border-box;
-    width: 100%;
-    font-size: 1rem;
-    padding: 8px;
-    border-radius: 25px;
-    outline: none;
-}
-
-input:focus{
-    box-shadow: 0 0 5px orange;
-    border: 1px solid orange;
-}
-
-.search-box i{
-    color: black;
     position: absolute;
-    top: 25%;
-    right: 4%;
-    transition: 1.5s;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 90vw;
+    max-width: 37.5em;
+    background-color: #ffffff;
+    padding: 1.8em;
+    border-radius: 0.6em;
+    box-shadow: 0 1.2em 3 em rgba(2,9,38,0.25);
+
 }
 
-.search-box i:hover{
-    color: orange;
+.search-container{
+    display:grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1em;
+    margin-bottom: 1.2em;
 }
 
-.grid{
-   width: 100%;
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-evenly;
-   align-items: flex-start; 
+.search-container input{
+    font-size: 1em;
+    padding: 0.6em 0.3em;
+    border: none;
+    outline: none;
+    color: #1f194c;
+    border-bottom: 1.5px solid #1f194c;
 }
 
-.img{
-    width: 380px;
-    height: 200px;
-    margin-top: 15px;
-    background-position: 50% 50%;
-    background-size: cover;
-    border-radius: 2px;
+.search-container  input:focus{
+    border-color: #5372f0;
 }
+
+.search-container  button{
+    font-size: 1em;
+    border-radius: 2em;
+    background-color: #5372f0;
+    border: none;
+    outline: none;
+    color: #ffffff;
+}
+
+
+
