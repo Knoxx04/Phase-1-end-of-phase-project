@@ -1,5 +1,25 @@
 # Phase-1-end-of-phase-project
-This is a project that ensures ease for customers when accessing a restaurant's menu
+- This is a project that ensures ease for mixologists to access ingredients needed to make some of the world-class cocktails
 
 ## Deliverables
-Clients will be able to search for cocktails and access the ingredients
+- User will be able to search for cocktails and access the ingredients with ease as well as the instructions on how to apply the ingredients
+
+## Installation and Running of application
+- git clone into repository
+
+            git clone git@github.com:Knoxx04/Phase-1-end-of-phase-project.git
+
+ - Navigate into cloned repository
+
+            cd
+
+  - open in VScode or text editor of your choice 
+
+            code .
+
+   - Run the application in browser
+
+## Alternative 2
+- To run the application click on the following link
+(https://fabulous-sunburst-460bde.netlify.app/)
+
