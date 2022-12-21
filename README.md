@@ -23,3 +23,12 @@
 - To run the application click on the following link
 (https://fabulous-sunburst-460bde.netlify.app/)
 
+## Authors
+- Written by Lennox Onyango
+
+- Contributed by Albert Byrone
+
+## License
+
+MIT
+
