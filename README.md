@@ -21,7 +21,7 @@
 
 ## Alternative 2
 - To run the application click on the following link
-(https://fabulous-sunburst-460bde.netlify.app/)
+(https://lovely-crumble-fb0a61.netlify.app/)
 
 ## Authors
 - Written by Lennox Onyango
